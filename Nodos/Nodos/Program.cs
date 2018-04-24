@@ -10,6 +10,7 @@ namespace Nodos
     {
         static void Main(string[] args)
         {
+            /*
             Nodo<int> nodo6 = new Nodo<int>(6);
             Nodo<int> nodo7 = new Nodo<int>(7);
 
@@ -22,6 +23,15 @@ namespace Nodos
             Nodo<int> nodo2 = new Nodo<int>(2, nodo3, nodo4);
 
             Nodo<int> nodo1 = new Nodo<int>(1, nodo2);
+            */
+
+            Nodo2<int> nodo1 = new Nodo2<int>(1);
+            Nodo2<int> nodo2 = new Nodo2<int>(2,nodo1);
+
+            nodo2.VerNodo();
+
+            Console.ReadKey();
+
 
         }
     }
